@@ -23,9 +23,9 @@ app.listen(
 // fetch routes
 let userRouter = require('./src/routes/users');
 let authRouter = require('./src/routes/auth');
-let blogRouter = require('./src/routes/blog');
+let productRouter = require('./src/routes/products');
 
 //define root routes.
 app.use('/user', userRouter);
 app.use('/auth', authRouter);
-app.use('/ads', blogRouter);
+app.use('/product', productRouter);

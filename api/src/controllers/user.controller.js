@@ -6,10 +6,20 @@ const getUser = (req,res) =>{
     //getting user api logic here
 };
 
+const editUser = (req,res) =>{
+    //edit user api logic here
+};
+
+const deleteUser = (req,res) =>{
+    //delete user api logic here
+};
+
 
 const UserController = {
     createUser,
-    getUser
+    getUser,
+    editUser,
+    deleteUser
 };
 
 module.exports = UserController;
